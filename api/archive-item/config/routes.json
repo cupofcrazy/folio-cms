@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/archive-items",
+      "handler": "archive-item.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/archive-items/count",
+      "handler": "archive-item.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/archive-items/:id",
+      "handler": "archive-item.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/archive-items",
+      "handler": "archive-item.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/archive-items/:id",
+      "handler": "archive-item.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/archive-items/:id",
+      "handler": "archive-item.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
